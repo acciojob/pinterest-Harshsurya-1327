@@ -5,18 +5,18 @@ body {
 }
 
 .hero {
+  object-fit:cover;
   display: flex;
   justify-content: center;
   align-items: center;
   height:250px;
-	width:650px;
-  object-fit:cover;
+  width:650px;
 }
 
 .hero-image {
   width: 50%;
   height: 100%;
-  object-fit: fill;
+  object-fit:cover;
 }
 
 .hero-text {
