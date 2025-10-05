@@ -3,18 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pinterest Clone</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Pinterest-like Hero Section</title>
+  <style>
+    /* Hero container */
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      text-align: center;
+      background: #fff;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    /* Hero image */
+    .hero img {
+      width: 80%;
+      max-width: 600px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    /* Hero heading */
+    .hero h1 {
+      font-size: 2rem;
+      margin: 10px 0;
+    }
+
+    /* Hero paragraph */
+    .hero p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    /* Explore Button */
+    .hero a {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #e60023; /* Pinterest red */
+      color: #fff;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero a:hover {
+      background-color: #ad081b;
+    }
+  </style>
 </head>
 <body>
-  <div class="hero">
-    <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Scenic Image" class="hero-image">
 
-    <div class="hero-text">
-      <h1>Welcome to my Pinterest clone</h1>
-      <p>Discover new inspiration and save your favorite ideas</p>
-      <a href="#" class="explore-btn">Explore now</a>
-    </div>
+  <div class="hero">
+    <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hero Image">
+    <h1>Discover the World’s Inspiration</h1>
+    <p>Find new ideas for home decor, recipes, fashion, and more.</p>
+    <a href="#">Explore now</a>
   </div>
+
 </body>
 </html>
